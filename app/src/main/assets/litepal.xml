@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="ClientStore"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.android.chatroomclient.db.User"/>
+        <mapping class="com.android.chatroomclient.db.Friend"/>
+        <mapping class="com.android.chatroomclient.db.AddFriend"/>
+        <mapping class="com.android.chatroomclient.db.Talk"/>
+    </list>
+</litepal>

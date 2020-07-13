@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ProgressBar" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">true</item>      <!--背景变暗-->
+        <item name="android:windowBackground">@drawable/progressbar</item>  <!--窗口背景-->
+    </style>
+    <style name="popup_style">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowEnterAnimation">@anim/menu_show</item>
+        <item name="android:windowExitAnimation">@anim/menu_hint</item>
+    </style>
+    <style name="FullActivity" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

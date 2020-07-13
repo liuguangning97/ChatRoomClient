@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/menu_chat"
+        android:title="聊天室"/>
+    <item
+        android:id="@+id/friend"
+        android:icon="@drawable/menu_friend"
+        android:title="好友"/>
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/menu_user"
+        android:title="个人中心"/>
+</menu>
